@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:700|Libre+Baskerville:400,400italic");
+
+/* GLOBAL */
+
+:root {
+  --beeblack: #13100b;
+
+  --font-size-m: 14px;
+  --font-size-l: 20px;
+  --font-size-xl: 24px;
+
+  --content-width-dt: 1156px;
+
+  --font-family-basker: "Libre Baskerville", Helvetica;
+  --font-family-frank: "Libre Franklin", Helvetica;
+}
+
+.small-text {
+  color: var(--beeblack);
+  font-family: var(--font-family-basker);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mid-text {
+  color: var(--beeblack);
+  font-family: var(--font-family-basker);
+  font-size: var(--font-size-l);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.large-text {
+  color: var(--beeblack);
+  font-family: var(--font-family-frank);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+  background: rgba(219, 84, 38, 0.20);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  min-width: var(--content-width-dt);
+}
+
+.small-logo {
+  height: 42px;
+  object-fit: cover;
+}
+
+.icons {
+  height: 40px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  max-width: var(--content-width-dt);
+}
+
+/* LOGO-GROUP */
+
+.logo-group {
+  min-width: var(--content-width-dt);
+  position: relative;
+}
+
+.logo {
+  width: 715px;
+  z-index: 2;
+}
+
+.tagline {
+  margin-top: 4rem;
+  letter-spacing: 0.20px;
+  max-width: 50%;
+}
+
+.honeycomb {
+  position: absolute;
+  top: 16rem;
+  right: calc((100% - var(--content-width-dt)) / 2);
+  z-index: -1;
+}
+
+/* LAB-GROUP */
+
+.about-lab {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.maninlab {
+  height: 380px;
+  width: 475px;
+}
+
+.lab-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ .title-2 {
+  letter-spacing: 0.72px;
+  text-align: center;
+}
+
+.text {
+  max-width: 40rem;
+} 
+
+/* PRODUCTS */
+
+.products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.products-title {
+  text-align: center;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 315px;
+}
+
+.card-image {
+  height: 315px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-text {
+}
+
+.card-description {
+}
+
+/* ABOUT-FARM */
+
+.about-farm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+
+.maninfield {
+  width: 100%;
+}
+
+.farm-text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-4 {
+  width: 80%;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #db542699;
+  height: 200px;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 100%;
+  align-items: top;
+  width: 100%;
+  max-width: var(--content-width-dt);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.footer-title {
+  color: var(--beeblack);
+  font-family: var(--font-family-libre_franklin);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+}
+
+.span1 {
+  text-decoration: underline;
+}
+
+.about-behave {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.text-6 {
+  width: 467px;
+}
+
+
+
