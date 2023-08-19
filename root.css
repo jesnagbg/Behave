@@ -1,0 +1,67 @@
+:root {
+    --beeblack: #13100b;
+    --summerorange: #E26640;
+  
+    --font-size-m: 14px;
+    --font-size-l: 20px;
+    --font-size-xl: 24px;
+  
+    --content-width: 1156px;
+  
+    
+    --font-family-basker: "Libre Baskerville", Helvetica;
+    --font-family-frank: "Libre Franklin", Helvetica;
+  }
+  
+  @media (max-width: 1170px) {
+    :root {
+        --content-width: 1000px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    :root {
+        --content-width: 800px;
+    }
+  }
+
+  @media (max-width: 810px) {
+    :root {
+        --content-width: 650px;
+    }
+  }
+  
+  @media (max-width: 660px) {
+    :root {
+        --content-width: 500px; 
+    }
+  }
+  
+  .small-text {
+    color: var(--beeblack);
+    font-family: var(--font-family-basker);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .mid-text {
+    color: var(--beeblack);
+    font-family: var(--font-family-basker);
+    font-size: var(--font-size-l);
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .large-text {
+    color: var(--beeblack);
+    font-family: var(--font-family-frank);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  * {
+    box-sizing: border-box;
+  
+  }
