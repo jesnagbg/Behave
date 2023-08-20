@@ -13,7 +13,7 @@
     --font-family-frank: "Libre Franklin", Helvetica;
   }
   
-  @media (max-width: 1170px) {
+  @media (max-width: 1180px) {
     :root {
         --content-width: 1000px;
     }
@@ -25,15 +25,21 @@
     }
   }
 
-  @media (max-width: 810px) {
+  @media (max-width: 820px) {
     :root {
-        --content-width: 650px;
+        --content-width: 630px;
     }
   }
   
-  @media (max-width: 660px) {
+  @media (max-width: 650px) {
     :root {
         --content-width: 500px; 
+    }
+  }
+
+  @media (max-width: 520px) {
+    :root {
+        --content-width: 400px; 
     }
   }
   

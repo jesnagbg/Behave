@@ -59,11 +59,13 @@ header {
 .logo-group {
   min-width: var(--content-width);
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
   /* width: 715px; */
-  max-width: 70%;
+  max-width: 60%;
   z-index: 2;
 }
 
@@ -81,13 +83,14 @@ header {
   z-index: -1;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1180px) {
   .honeycomb {
     height: 70%;
     top: 20rem;
   }
   .logo {
-    max-width: 65%;
+    max-width: 55%;
+    align-self: center;
   }
 }
 
@@ -102,10 +105,20 @@ header {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 820px) {
   .honeycomb {
     display: none;
-  }  
+    background-color: brown;
+  }
+  .logo-group {
+    align-items: center;
+  } 
+  .tagline {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 640px) {
 }
 
 /* LAB-GROUP */
@@ -164,10 +177,10 @@ header {
   } 
 }
 
-@media (max-width: 660px) {
-  .maninlab {
-    max-width: 100%;
-  } 
+@media (max-width: 640px) {
+  .about-lab {
+    margin-top: 2rem;
+  }
 }
 
 /* PRODUCTS */
@@ -225,7 +238,12 @@ header {
   .products {
     margin-top: 2rem;
   }
+}
 
+@media (max-width: 640px) {
+  .products {
+    margin-top: 2rem;
+  }
 }
 
 /* ABOUT-FARM */
@@ -270,6 +288,13 @@ header {
 
 }
 
+@media (max-width: 640px) {
+  .text-4 {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 /* FOOTER */
 
 .footer {
@@ -285,17 +310,12 @@ header {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
   height: 100%;
   align-items: top;
   width: 100%;
   max-width: var(--content-width);
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 11px;
+  gap: 2rem;
+  padding-top: 1rem;
 }
 
 .footer-title {
@@ -305,19 +325,27 @@ header {
   font-weight: 700;
 }
 
-.span1 {
-  text-decoration: underline;
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
 }
 
 .about-behave {
   display: flex;
   flex-direction: column;
   gap: 11px;
+  width: 50%;
 }
 
-.text-6 {
-  width: 467px;
+.span1 {
+  text-decoration: underline;
 }
 
+@media (max-width: 650px) {
+  .footer {
+    height: 300px;
+  }
+}
 
 
