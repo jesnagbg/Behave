@@ -85,8 +85,8 @@ header {
 
 @media (max-width: 1180px) {
   .honeycomb {
-    height: 70%;
-    top: 20rem;
+    height: 75%;
+    top: 18rem;
   }
   .logo {
     max-width: 55%;
@@ -302,7 +302,7 @@ header {
   justify-content: center;
   /* background-color: #db542699; */
   background-color: var(--summerorange);
-  height: 200px;
+  height: 220px;
   margin-top: 2rem;
   width: 100%;
 }
@@ -340,6 +340,10 @@ header {
 
 .span1 {
   text-decoration: underline;
+}
+
+.line {
+  line-height: 1.5;
 }
 
 @media (max-width: 650px) {
