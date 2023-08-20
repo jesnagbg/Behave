@@ -12,3 +12,5 @@ Webbplatsen består av följande sektioner:
 - **Produkter**: Tre exempel på Behaves hårprodukter.
 
 Jag har valt att designa webbplatsen som en "one-page" design, vilket innebär att allt innehåll visas på en enda sida.
+
+[Demo](https://jesnagbg.github.io/Behave/)
